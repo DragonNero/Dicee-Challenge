@@ -1,2 +1,2 @@
 # Dicee-Challenge
-created a simple dice game
+created a simple dice game with refresh button
