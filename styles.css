@@ -9,6 +9,12 @@
   display: inline-block;
 
 }
+.btn_refresh{
+  text-align: center;
+}
+.refresh{
+
+}
 
 body {
   background-color: #393E46;
