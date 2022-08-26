@@ -56,13 +56,13 @@ function refresh() {
   if (randomNumber2 === 6) {
     image2.setAttribute("src", "images/dice6.png");
   }
-  if (randomNumber1 > randomNumber2 ) {
-    document.querySelector("h1").innerHTML="Player 1 wins!";
-  }
-  else if (randomNumber2 > randomNumber1 ) {
-    document.querySelector("h1").innerHTML="Player 2 wins!";
-  }
-  else (randomNumber2 = randomNumber1 ) {
-    document.querySelector("h1").innerHTML="Drawn!";
-  }
+}
+if (randomNumber1 > randomNumber2 ) {
+  document.querySelector("h1").innerHTML="Player 1 wins!";
+}
+else if (randomNumber2 > randomNumber1 ) {
+  document.querySelector("h1").innerHTML="Player 2 wins!";
+}
+else (randomNumber2 = randomNumber1 ) {
+  document.querySelector("h1").innerHTML="Drawn!";
 }
